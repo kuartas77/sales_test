@@ -1,6 +1,6 @@
 ## Acerca del Proyecto
 
-API de ejemplo para "un sistema de ventas", se agrega [Test Ventas para Postman](./Test Ventas.postman_collection.json?raw=true).
+API de ejemplo para "un sistema de ventas", se agrega "Test Ventas.postman_collection.json".
 Este archivo contiene las peticiones necesarias para la utilización de dicha API.
 
 - CRUD de Productos.
