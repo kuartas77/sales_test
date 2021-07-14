@@ -1,0 +1,505 @@
+{
+	"info": {
+		"_postman_id": "f6e912ed-f672-444a-afb9-f552b3873901",
+		"name": "Test Ventas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Products Index",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url_base}}/api/products",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Products Index",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url_base}}/api/products",
+							"host": [
+								"{{url_base}}"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Jul 2021 06:09:59 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.35 (Win64) OpenSSL/1.1.1g PHP/7.4.11"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.11"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2244"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 2,\n            \"sku\": \"CW\",\n            \"name\": \"Otilia Welch\",\n            \"description\": \"Non atque modi ipsum non. Aspernatur sit quis officia nesciunt sint est ut qui. Est qui earum id.\",\n            \"photo\": \"http://ventas.local/storage/images/4f29b341ea02a3f1b6d9646c593d95dc.png\",\n            \"price\": 135672.71,\n            \"taxes\": 10,\n            \"active\": true\n        },\n        {\n            \"id\": 3,\n            \"sku\": \"CV\",\n            \"name\": \"Earline Wilderman Jr.\",\n            \"description\": \"Enim temporibus nostrum sed molestiae velit eos. Qui et voluptas mollitia dolores adipisci.\",\n            \"photo\": \"http://ventas.local/storage/images/448f0974c7d980b91ce2d347bbefcb11.png\",\n            \"price\": 122694.46,\n            \"taxes\": 10,\n            \"active\": true\n        },\n        {\n            \"id\": 4,\n            \"sku\": \"CZ\",\n            \"name\": \"Arjun Durgan\",\n            \"description\": \"Repellat et quam voluptate. Voluptatibus earum ratione corrupti nemo ut.\",\n            \"photo\": \"http://ventas.local/storage/images/b6d777a4baa6f459119be993f8489d71.png\",\n            \"price\": 113047.48,\n            \"taxes\": 0,\n            \"active\": true\n        },\n        {\n            \"id\": 5,\n            \"sku\": \"BL\",\n            \"name\": \"Wilfred Nikolaus\",\n            \"description\": \"Enim ipsam ipsam qui laborum. Aut sed soluta voluptatibus sit veniam vero suscipit omnis.\",\n            \"photo\": \"http://ventas.local/storage/images/119e49a9f43821bd170fe1cac5a6bba1.png\",\n            \"price\": 194418.81,\n            \"taxes\": 19,\n            \"active\": true\n        },\n        {\n            \"id\": 6,\n            \"sku\": \"NR\",\n            \"name\": \"Abigail Kunze\",\n            \"description\": \"Consequatur tempora dolores non fugit. Non accusantium vero sed unde amet qui. Sed officia id quia.\",\n            \"photo\": \"http://ventas.local/storage/images/d0812f8496449dcb5066a4d3d39c29f0.png\",\n            \"price\": 185385.76,\n            \"taxes\": 19,\n            \"active\": true\n        },\n        {\n            \"id\": 7,\n            \"sku\": \"PS\",\n            \"name\": \"Antoinette Botsford\",\n            \"description\": \"Ea quis facere sit officiis. Eius sunt eum minima mollitia qui distinctio quam.\",\n            \"photo\": \"http://ventas.local/storage/images/8a50d1bc42c977e3e44e157f4660a5c7.png\",\n            \"price\": 110809.81,\n            \"taxes\": 19,\n            \"active\": true\n        },\n        {\n            \"id\": 8,\n            \"sku\": \"MT\",\n            \"name\": \"Rocky Sanford\",\n            \"description\": \"Quidem totam voluptatum accusantium vel. Nostrum nisi aut aut et. Consequatur optio non ea quasi.\",\n            \"photo\": \"http://ventas.local/storage/images/75f1eb0fc771593918904ba54a16c120.png\",\n            \"price\": 190291.63,\n            \"taxes\": 10,\n            \"active\": true\n        },\n        {\n            \"id\": 9,\n            \"sku\": \"TT\",\n            \"name\": \"Johathan Heller\",\n            \"description\": \"Quidem porro sint impedit enim. Aut vel recusandae commodi adipisci quia autem.\",\n            \"photo\": \"http://ventas.local/storage/images/86986cd44cb0b577fc02552ca2ec5b04.png\",\n            \"price\": 5000,\n            \"taxes\": 19,\n            \"active\": true\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Products Create",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sku\": \"CUS-02\",\r\n    \"name\": \"test one\",\r\n    \"description\": \"Lorem ipsum\",\r\n    \"price\": 10500,\r\n    \"taxes\": 10,\r\n    \"active\": true,\r\n    \"photo\": \"data:image/png;base64,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\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}/api/products",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Products Show",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url_base}}/api/products/10",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"10"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Products Show",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url_base}}/api/products/10",
+							"host": [
+								"{{url_base}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"10"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Jul 2021 06:10:32 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.35 (Win64) OpenSSL/1.1.1g PHP/7.4.11"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.11"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "205"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"id\": 10,\n        \"sku\": \"CUS-01\",\n        \"name\": \"test one\",\n        \"description\": \"Lorem ipsum\",\n        \"photo\": \"http://ventas.local/storage/images/0dc8cc8bb4b39efe3dcdc790b69899da.png\",\n        \"price\": 10501,\n        \"taxes\": 0,\n        \"active\": false\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Products Update",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sku\": \"CUS-01\",\r\n    \"name\": \"test one\",\r\n    \"description\": \"Lorem ipsum\",\r\n    \"price\": 10501,\r\n    \"taxes\": 0,\r\n    \"active\": false\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}/api/products/10",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Products Delete",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url_base}}/api/products/11",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sales Index",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url_base}}/api/sales",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"api",
+						"sales"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Sales Index",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url_base}}/api/sales",
+							"host": [
+								"{{url_base}}"
+							],
+							"path": [
+								"api",
+								"sales"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 13 Jul 2021 06:10:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.35 (Win64) OpenSSL/1.1.1g PHP/7.4.11"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.11"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "323"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"client\": \"Juan Cuartas\",\n            \"phone\": \"3000000000\",\n            \"email\": \"test@test.com\",\n            \"subtotal\": 35000,\n            \"total_taxes\": 4850,\n            \"total\": 39850,\n            \"created_at\": \"2021-07-13T05:22:20.000000Z\",\n            \"detail\": [\n                {\n                    \"product\": \"Johathan Heller\",\n                    \"unit_value\": 5000,\n                    \"quantity\": 3,\n                    \"tax\": 2850\n                },\n                {\n                    \"product\": \"test one\",\n                    \"unit_value\": 10000,\n                    \"quantity\": 2,\n                    \"tax\": 2000\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Sales Create",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"client\": \"Juan Cuartas\",\r\n    \"phone\": \"3000000000\",\r\n    \"email\": \"test@test.com\",\r\n    \"products\": [\r\n        {\r\n            \"sku\": \"CZ\",\r\n            \"count\": 1\r\n        },\r\n        {\r\n            \"sku\": \"CUS-02\",\r\n            \"count\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}/api/sales",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"api",
+						"sales"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url_base",
+			"value": "http://ventas.local"
+		}
+	]
+}
